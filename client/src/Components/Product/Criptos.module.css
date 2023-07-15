@@ -1,0 +1,39 @@
+.container {
+  margin: 5vh auto;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5vh auto;
+}
+
+/*.bitcoin{
+      
+}*/
+
+.cards img {
+  margin-top: 40px;
+  width: 250px;
+  height: 250px;
+  margin-left: -50px;
+}
+
+.cards button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #1bcb7f;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+.cards button:hover {
+  opacity: 0.7;
+}
